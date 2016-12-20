@@ -1,0 +1,12 @@
+function fibnum() {
+	n = 0; a = 1; b = 1;
+	while(n < 10) {
+	n++;
+	x = a + b; 
+		if( x % 2 == 0) {
+			console.log(x);
+        }
+	a = b;b = x;
+    }
+}
+fibnum();
